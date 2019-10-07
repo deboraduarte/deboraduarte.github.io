@@ -1,7 +1,7 @@
 define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "<div class=\"container-fluid\">\n  <section class=\"row about\">\n      <span class=\"col-6\">\n        "
+  return "<div class=\"container-fluid\">\n  <section class=\"row about\">\n      <span class=\"col-10 col-md-6\">\n        "
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.about_text : stack1), depth0))
     + "\n        <br />\n        <a href=\"curriculum/index.html\">Veja mais</a>\n      </span>\n      \n  </section>\n</div>\n\n<style>\n.about{\n height: 25em;\n background: url("
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.about_background : stack1), depth0))
